@@ -1,0 +1,6 @@
+frase = input('Digite uma frase: ')
+sespacos = frase.strip()
+minusculas = sespacos.lower()
+print('A letra a aparece {} vezes na frase.'.format(minusculas.count('a')))
+print('A primeira letra a, aparece na posição {}.'.format(minusculas.find('a') + 1))
+print('A última letra a, apareceu na posição {}.'.format(minusculas.rfind('a') + 1))
