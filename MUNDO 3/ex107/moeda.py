@@ -13,4 +13,7 @@ def aumentar(preco, porcent):
 def diminuir(preco, porcent):
     res = preco - (preco * porcent / 100)
     return res
-    
+
+def moeda(valor):
+        valor = f'{valor:.2f}'
+        return valor
